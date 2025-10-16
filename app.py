@@ -18,53 +18,6 @@ import time
 # Page Config
 # ============================
 st.set_page_config(page_title="Top 250 Movies Dashboard", page_icon=":movie_camera:", layout="wide")
-# ============================
-# Custom Theme with CSS
-# ============================
-custom_css = """
-<style>
-/* Main background */
-[data-testid="stAppViewContainer"] {
-    background-color: #00172B;
-    color: #fff;
-}
-
-/* Sidebar background */
-[data-testid="stSidebar"] {
-    background-color: #063970;
-}
-
-/* Text color */
-html, body, [class*="css"]  {
-    color: #fff;
-    font-family: "sans-serif";
-}
-
-/* Primary color for buttons, sliders, etc. */
-.stButton>button {
-    background-color: #154c79;
-    color: white;
-    border: none;
-}
-
-.stButton>button:hover {
-    background-color: #0f3a5e;
-    color: white;
-}
-
-/* Metric cards and other widgets */
-[data-testid="stMetricValue"] {
-    color: #fff;
-}
-
-/* Hide Streamlit branding if desired */
-#MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-header {visibility: hidden;}
-</style>
-"""
-st.markdown(custom_css, unsafe_allow_html=True)
-
 st.subheader(":movie_camera: Top 250 Movies Dashboard")
 st.markdown('##')
 
