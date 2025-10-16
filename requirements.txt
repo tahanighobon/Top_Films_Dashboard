@@ -1,0 +1,9 @@
+streamlit
+pandas
+plotly
+streamlit-option-menu
+numerize
+streamlit-extras
+fpdf
+requests
+reportlab
